@@ -1,10 +1,14 @@
 .header{
     height: 34vw;
-    margin: 30pc auto;
-    background: url('/header_img.png') no-repeat;
+    margin: 3pc auto;
+    background: url('../../assets/header_img.png') no-repeat;
     background-size: contain;
     position: relative;
+    margin-left: 75px;
+
 }
+
+
 
 .header-contents{
     position: absolute;
@@ -16,6 +20,7 @@
     bottom: 10%;
     left: 6vw;
     animation: fadeIn 3s;
+    
 
 }
 
@@ -23,6 +28,7 @@
     font-weight: 500;
     color: white;
     font-size: max(4.5vw, 22px);
+
 }
 
 .header-contents p{
@@ -52,5 +58,5 @@
     }
     100%{
         opacity: 1;
-    }
+    } 
 }
