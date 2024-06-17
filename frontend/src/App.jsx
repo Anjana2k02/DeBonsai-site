@@ -6,14 +6,16 @@ import Header from './components/Header/Header';
 
 const App = () => {
   return (
+    <div className="app">
     <Router>
       <Navbar/>
-      <div className="container">
+      
         <Routes>
           <Route path='/' element={<Home />} />
         </Routes>
-      </div>
+      
     </Router>
+    </div>
   );
 };
 
