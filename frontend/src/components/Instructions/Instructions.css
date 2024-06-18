@@ -115,21 +115,21 @@
 
 .selecting-bon {
     padding: 2em;
-    max-width: 750px; /* Ensuring the content doesn't exceed the viewport width */
+    max-width: 1050px; /* Ensuring the content doesn't exceed the viewport width */
     margin: 0 auto; /* Center the content */
 }
 
 .selecting-bon h1 {
     font-size: 28px;
     color: #000;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .selecting-bon h2 {
     font-size: 24px;
     color: tomato; /* Set color to tomato for subheadings */
     margin-bottom: 0.5rem;
-    margin-top: 1.5rem;
+    margin-top: 3.5rem;
 }
 
 .selecting-bon p {
@@ -149,6 +149,18 @@
     margin-bottom: 0.5rem;
 }
 
+.potrait-img img {
+    width: 20%;
+    height: auto;
+    margin-bottom: 2rem;    
+}
+
+.landscape-img img {
+    width: 35%;
+    height: auto;
+    margin-bottom: 2rem;
+    border-radius: 10px;    
+}
 
 
 @media (max-width: 900px){

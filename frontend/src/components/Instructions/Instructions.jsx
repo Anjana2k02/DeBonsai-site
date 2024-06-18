@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Instructions.css';
-import { instruction } from '../../assets/assets';
+import { food_list, instruction } from '../../assets/assets';
 
 const Instructions = () => {
   useEffect(() => {
@@ -188,32 +188,41 @@ const Instructions = () => {
      
 
     <div className="selecting-bon">
+      <div className="potrait-img">
     <h1>The Creative World of Bonsai</h1>
   <p>Bonsai is a captivating art form that allows for immense creativity. Let's explore five ways bonsai unleashes creativity in the real world:</p>
 
   <h2>1. Style Selection</h2>
   <p>The first step towards a creative bonsai is choosing a style. Each style offers a unique aesthetic, significantly impacting the final look.</p>
   <ul>
-    <li>Formal Upright: Imagine a dignified tree reaching for the sky.</li>
-    <li>Informal Upright: A more relaxed version of the formal style, with a natural, flowing trunkline. </li>
-    <li>Slanting: This style portrays a tree enduring strong winds, creating a dynamic composition.</li>
-    <li>Cascade: Imagine a waterfall of foliage cascading down a slope. A truly dramatic style! </li>
-    <li>Forest: Recreate a miniature woodland with multiple trees in a single pot.</li>
+    <li><b>Formal Upright:</b> Imagine a dignified tree reaching for the sky.</li>
+    <img src='https://i.redd.it/n3glybsh4any.jpg'/>
+    <li><b>Informal Upright:</b> A more relaxed version of the formal style, with a natural, flowing trunkline. </li>
+    <img src='https://i8.fnp.com/assets/images/custom/blog/Bonsai2.jpg'/>
+    <li><b>Slanting:</b> This style portrays a tree enduring strong winds, creating a dynamic composition.</li>
+    <img src='https://plantly.io/wp-content/uploads/2020/10/bonsai-shakan.jpg'/>
+    <li><b>Cascade:</b> Imagine a waterfall of foliage cascading down a slope. A truly dramatic style! </li>
+    <img src='https://gardenerspath.com/wp-content/uploads/2021/12/Cascade-Bonsai-on-a-Gray-Background.jpg'/>
+    <li><b>Forest:</b> Recreate a miniature woodland with multiple trees in a single pot.</li>
+    <img className="selecting-sm"src='https://b934934.smushcdn.com/934934/wp-content/uploads/2022/09/Bonsai-Forests-1140x694.jpg?lossy=1&strip=0&webp=1' />
   </ul>
+  </div>
 
+  <div className="landscape-img">
   <h2>2. Tree Selection</h2>
   <p>Not every tree can be a bonsai, but there are many suitable options! Popular choices include juniper, ficus, elm, and pines. The chosen tree species influences the achievable styles.</p>
-
+    <img src='https://i.pinimg.com/736x/98/d0/c4/98d0c40666b19badb043ef67243fe880.jpg'/>
   <h2>3. Pot Selection</h2>
   <p>The pot is an integral part of the bonsai presentation, complementing the tree and style. Explore the vast selection of bonsai pots available in various materials, shapes, and sizes.</p>
-
+  <img src='https://i.pinimg.com/736x/eb/d1/12/ebd11298491d9cd7b52145b37a475b18.jpg'/>
   <h2>4. Miniature Landscapes</h2>
   <p>Incorporate miniature landscapes into your bonsai by adding rocks, moss, and other miniature plants. This adds depth and intrigue to your creation. </p>
-
+  <img src='https://i.pinimg.com/736x/3e/19/c7/3e19c76ae39a690ddca035dd78d95985.jpg'/>
   <h2>5. Deadwood Techniques</h2>
   <p>Deadwood techniques, like jin (dead wood) and shari (exposed wood), add character and age to your bonsai. Mastering these techniques elevates your bonsai to a whole new level! </p>
-
+  <img src='https://i.pinimg.com/736x/5d/42/a1/5d42a1bd4edab67d02687128df9da2f5.jpg'/>
   <p>With these creative approaches, you can transform a regular tree into a captivating living sculpture. Explore the world of bonsai and create your own miniature masterpiece!</p>
+  </div>
     </div>
 
     </div>
