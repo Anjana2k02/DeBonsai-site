@@ -97,7 +97,29 @@
 
 /* Media query for 750px */
 @media (max-width: 750px) {
-    .navbar {
-        display: none;
+    .navbar .logo {
+        width: 50px;
     }
+    .navbar button{
+        height: 30px;
+        width: 80px;
+        font-size: 12px;
+        padding: 0px 0px;
+    }
+
+    .navbar img{
+        width: 15px;
+        height: auto;
+        
+    } 
+
+    .navbar-right{
+        width: 120px;
+        gap: 15px;
+    }
+
+    .navbar a{
+        font-size: 12px;
+    }
+    
 }
