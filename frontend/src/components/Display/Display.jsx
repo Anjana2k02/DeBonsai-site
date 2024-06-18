@@ -23,6 +23,7 @@ const Display = ({ category }) => {
             />
           ))}
       </div>
+      <hr/>
     </div>
   );
 }

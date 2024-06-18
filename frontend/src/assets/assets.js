@@ -60,6 +60,35 @@ import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
 
+import water1 from './watering1.jpg'
+import water2 from './watering2.jpg'
+import water3 from './watering3.jpg'
+import water4 from './watering4.jpg'
+import soil1 from './soil1.jpg'
+import soil2 from './soil2.png'
+import soil3 from './soil3.jpg'
+import soil4 from './soil4.jpg'
+import real1 from './real1.jpg'
+import real2 from './real2.jpg'
+import real3 from './real3.jpg'
+import real4 from './real4.jpg'
+
+export const instruction = {
+    water1,
+    water2,
+    water3,
+    water4,
+    soil1,
+    soil2,
+    soil3,
+    soil4,
+    real1,
+    real2,
+    real3,
+    real4
+
+}
+
 export const assets = {
     logo,
     basket_icon,

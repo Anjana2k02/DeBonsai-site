@@ -18,3 +18,10 @@
     row-gap: 50px;
 }
 
+.display hr{
+    border: 1px solid #f2f2f2;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
