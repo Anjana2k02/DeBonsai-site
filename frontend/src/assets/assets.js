@@ -115,7 +115,36 @@ export const assets = {
     parcel_icon
 }
 
-
+export const sort_list = [
+    {
+        menu_name: "Formal",
+        menu_image: formal
+    },
+    {
+        menu_name: "Informal",
+        menu_image: informal
+    },
+    {
+        menu_name: "Rock",
+        menu_image: rock
+    },
+    {
+        menu_name: "Slanting",
+        menu_image: slanting
+    },
+    {
+        menu_name: "Cascade",
+        menu_image: cascade
+    },
+    {
+        menu_name: "Mini",
+        menu_image: mini
+    },
+    {
+        menu_name: "Forest",
+        menu_image: forest
+    }
+    ]
 export const plant_list = [
     {
         _id: "1",
@@ -181,7 +210,7 @@ export const plant_list = [
         image: rock1,
         price: 18000,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "rock"
+        category: "Rock"
     },
     {
         _id: "9",
@@ -197,7 +226,7 @@ export const plant_list = [
         image: informal1,
         price: 18000,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "informal"
+        category: "Informal"
     },
 
     {
@@ -206,7 +235,7 @@ export const plant_list = [
         image: cascade2,
         price: 120000,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "cascade"
+        category: "Cascade"
     },
     {
         _id: "12",
@@ -222,7 +251,7 @@ export const plant_list = [
         image: slanting1,
         price: 24000,
         description: "10 years old Beautifull tree",
-        category: "slanting"
+        category: "Slanting"
     },
     {
         _id: "14",
@@ -247,7 +276,7 @@ export const plant_list = [
         image: mini2,
         price: 180000,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "mini"
+        category: "Mini"
     },
     {
         _id: "17",
@@ -255,7 +284,7 @@ export const plant_list = [
         image: rock2,
         price: 120000,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "rock"
+        category: "Rock"
     },
     {
         _id: "18",

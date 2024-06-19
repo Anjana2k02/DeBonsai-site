@@ -1,6 +1,6 @@
 import React from 'react';
 import './ExploreMenu.css';
-import { plant_list } from '../../assets/assets';
+import { sort_list } from '../../assets/assets';
 
 const ExploreMenu = ({ category, setCategory }) => {
   return (
@@ -8,7 +8,7 @@ const ExploreMenu = ({ category, setCategory }) => {
       <h1>Explore Our Menu</h1>
       <p className='explore-menu-text'>Choose from a diverse menu featuring ...</p>
       <div className='explore-menu-list'>
-        {plant_list.map((item, index) => (
+        {sort_list.map((item, index) => (
           <div
             key={index}
             onClick={() => setCategory(prev => (prev === item.menu_name ? 'All' : item.menu_name))}
