@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Instructions.css';
-import { food_list, instruction } from '../../assets/assets';
+import { instruction } from '../../assets/assets';
 
 const Instructions = () => {
   useEffect(() => {
