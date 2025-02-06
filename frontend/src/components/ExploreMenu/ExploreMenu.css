@@ -48,7 +48,7 @@
   
   .explore-menu-list-item.active {
     transform: scale(0.95); 
-    border-color: tomato; 
+    border-color: #ff6347; 
   }
 
   .explore-menu-list-item.active img {
